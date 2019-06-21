@@ -1,4 +1,4 @@
 # Zomato-Rating-prediction
-The data set is taken from Kaggle. Dataset is available by folowing this link : https://www.kaggle.com/shrutimehta/zomato-restaurants-data
-Data set is in the form of 2 .csv file which has shapes of 9551,21 and 15,2. Exploratory Data ANalysis has been done. Feature Engineering has also beeen done to improve the accuracy of the prediction by imparting extra informtion. Rating of restaurants has been predicted using Linear regression, Decision tree regressor, Random forest and XG Boost regressor.
+The data set is taken from Kaggle.com and is available in this link : https://www.kaggle.com/shrutimehta/zomato-restaurants-data
+Data set is in the form of 2 .csv file which has shapes of 9551,21 and 15,2. Data preprocessing (i.e. imputing the null values ) and Exploratory Data Analysis (EDA) has been done. Feature Engineering has also beeen done to improve the accuracy of the prediction by imparting extra informtion. Feature engineering is done creating new features such as 'Continent', 'number of cuisines', etc,. Rating of restaurants has been predicted using Linear regression, Decision tree regressor, Random forest and XG Boost regressor and are compared.
 It is observed that the XG Boost regressor has the lowest rmse of 0.267 while Linear regrressor has the maximum of 0.587.
